@@ -8,3 +8,7 @@ console.log(result)
 let isDone: boolean = true
 
 add(4, 6)
+
+export function hello(): string {
+  return 'Hello, World!'
+}
